@@ -18,19 +18,19 @@ Currently, you can only manage media while editing an entry.
 ### Via Composer
 
 ``` bash
-composer require gaspertrix/laravel-backpack-dropzone-field:^3.0.0
+composer require sarsoeurng/laravel-backpack-dropzone-field:^3.0.0
 ```
 
 The package will automatically register itself.
 
 You must publish public assets:
 ``` bash
-php artisan gaspertrix:backpack:dropzone:install
+php artisan sarsoeurng:backpack:dropzone:install
 ```
 
 You may publish views with:
 ``` bash
-php artisan vendor:publish --provider="Gaspertrix\LaravelBackpackDropzoneField\DropzoneFieldServiceProvider" --tag="views"
+php artisan vendor:publish --provider="Sarsoeurng\LaravelBackpackDropzoneField\DropzoneFieldServiceProvider" --tag="views"
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ For simplicity add the `MediaOperation` operation to EntityCrudController.
 class EntityCrudController extends CrudController
 {
 	...
-    use \Gaspertrix\LaravelBackpackDropzoneField\App\Http\Controllers\Operations\MediaOperation;
+    use \Sarsoeurng\LaravelBackpackDropzoneField\App\Http\Controllers\Operations\MediaOperation;
 
 	...
 }
