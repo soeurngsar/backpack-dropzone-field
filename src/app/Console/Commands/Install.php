@@ -16,7 +16,7 @@ class Install extends Command
      *
      * @var string
      */
-    protected $signature = 'gaspertrix:backpack:dropzone:install
+    protected $signature = 'sarsoeurng:backpack:dropzone:install
                                 {--timeout=300} : How many seconds to allow each process to run.
                                 {--debug} : Show process output or not. Useful for debugging.';
 
