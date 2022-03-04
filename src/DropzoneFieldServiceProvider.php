@@ -1,8 +1,8 @@
 <?php
 
-namespace Gaspertrix\LaravelBackpackDropzoneField;
+namespace Sarsoeurng\BackpackDropzoneField;
 
-use Gaspertrix\LaravelBackpackDropzoneField\App\Console\Commands\Install;
+use Sarsoeurng\BackpackDropzoneField\App\Console\Commands\Install;
 use Illuminate\Support\ServiceProvider;
 
 class DropzoneFieldServiceProvider extends ServiceProvider
@@ -23,16 +23,16 @@ class DropzoneFieldServiceProvider extends ServiceProvider
         }
 
         // Publish field
-        $this->publishes([__DIR__.'/resources/views' => resource_path('views/vendor/gaspertrix/laravel-backpack-dropzone-field')], 'views');
+        $this->publishes([__DIR__.'/resources/views' => resource_path('views/vendor/sarsoeurng/backpack-dropzone-field')], 'views');
 
         // Publish public assets
-        $this->publishes([__DIR__.'/public' => public_path('vendor/gaspertrix/laravel-backpack-dropzone-field')], 'public');
+        $this->publishes([__DIR__.'/public' => public_path('vendor/sarsoeurng/backpack-dropzone-field')], 'public');
 
         // Load translations
         $this->loadTranslationsFrom(__DIR__.'/resources/lang', 'dropzone');
 
         // Load custom views first
-        $customViewsFolder = resource_path('views/vendor/gaspertrix/laravel-backpack-dropzone-field');
+        $customViewsFolder = resource_path('views/vendor/sarsoeurng/backpack-dropzone-field');
 
         if (file_exists($customViewsFolder)) {
             $this->loadViewsFrom($customViewsFolder, 'dropzone');
