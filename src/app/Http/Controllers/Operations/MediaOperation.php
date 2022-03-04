@@ -1,6 +1,6 @@
 <?php
 
-namespace Gaspertrix\LaravelBackpackDropzoneField\App\Http\Controllers\Operations;
+namespace Sarsoeurng\BackpackDropzoneField\App\Http\Controllers\Operations;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
