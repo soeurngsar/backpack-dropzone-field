@@ -1,5 +1,5 @@
 {
-    "name": "gaspertrix/laravel-backpack-dropzone-field",
+    "name": "sarsoeurng/backpack-dropzone-field",
     "type": "library",
     "description": "Add Dropzone support for Laravel Backpack",
     "keywords": [
@@ -11,13 +11,13 @@
         "upload",
         "files"
     ],
-    "homepage": "https://github.com/gaspertrix/laravel-backpack-dropzone-field",
+    "homepage": "https://github.com/sarsoeurng/backpack-dropzone-field",
     "license": "MIT",
     "authors": [
         {
-            "name": "Adrian Sacchi",
-            "email": "adrian@gaspertrix.com",
-            "homepage": "https://www.gaspertrix.com/",
+            "name": "Sar Soeurng",
+            "email": "sar.soeurng@gmail.com",
+            "homepage": "https://www.google.com/",
             "role": "Developer"
         }
     ],
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gaspertrix\\LaravelBackpackDropzoneField\\": "src"
+            "Sarsoeurng\\BackpackDropzoneField\\": "src"
         }
     },
     "autoload-dev": {
@@ -42,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gaspertrix\\LaravelBackpackDropzoneField\\DropzoneFieldServiceProvider"
+                "Sarsoeurng\\BackpackDropzoneField\\DropzoneFieldServiceProvider"
             ]
         }
     }
