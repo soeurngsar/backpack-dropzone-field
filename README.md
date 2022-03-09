@@ -18,7 +18,7 @@ Currently, you can only manage media while editing an entry.
 ### Via Composer
 
 ``` bash
-composer require sarsoeurng/laravel-backpack-dropzone-field:^3.0.0
+composer require sarsoeurng/backpack-dropzone-field
 ```
 
 The package will automatically register itself.
