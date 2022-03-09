@@ -18,7 +18,7 @@ Currently, you can only manage media while editing an entry.
 ### Via Composer
 
 ``` bash
-composer require sarsoeurng/backpack-dropzone-field
+composer require sarsoeurng/backpack-dropzone-field^3.0.1
 ```
 
 The package will automatically register itself.
