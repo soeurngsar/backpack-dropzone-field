@@ -109,11 +109,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email adrian@gaspertrix.com instead of using the issue tracker.
+If you discover any security related issues, please email sar.soeurng@gmail.com instead of using the issue tracker.
 
 ## Credits
 
 - [Adrian Sacchi][link-author]
+- [Gaspertrix][link-author]
 - [All Contributors][link-contributors]
 
 ## License
